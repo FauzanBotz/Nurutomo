@@ -1,1 +1,1 @@
-warker : node index.js
+warker : npm start

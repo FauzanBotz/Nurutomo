@@ -331,7 +331,7 @@ global.dfail = (type, m, conn) => {
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
     unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*'
   }[type]
-  if (msg) return m.reply(msg)
+  if (msg) return m.reply(msg) 
 }
 
 let fs = require('fs')
